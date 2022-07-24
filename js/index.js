@@ -32,11 +32,12 @@ for (let i=0; i < hacker1.length; i++){
     newHacker1 += hacker1UpperCase[i] + " ";
 }
 
-for (let j=5; j <= 5 && j>=0; j--){
+for (let j=hacker2.length-1; j >= 0 ; j--){
     //let hacker2LowerCase = hacker2.toLocaleLowerCase();
     newHacker2 += hacker2[j];
 }
-//console.log(newHacker1)
+console.log(newHacker1)
+console.log(newHacker2)
 
-console.log(newHacker2[j])
+
 
